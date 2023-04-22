@@ -51,6 +51,10 @@ resource "docker_container" "nginx" {
 ## loop develop
 
 ```
+terraform fmt
+
+terraform validate
+
 terraform init
 
 terraform apply
